@@ -59,7 +59,7 @@ CREATE TABLE `tbl_hospital` (
 --
 
 INSERT INTO `tbl_hospital` (`name`, `address`, `city`, `state`, `email`, `image`) VALUES
-('saukakke', 'saukakke', 'saukakke', 'saukakke', 'saukakke@gmail.com', '../upload/Screenshot (8).png');
+('Yasin Muhammed Tukur', 'samaru', 'zaria', 'kaduna', 'saukakke@gmail.com', '../upload/Screenshot (8).png');
 
 -- --------------------------------------------------------
 
@@ -81,8 +81,7 @@ CREATE TABLE `tbl_location` (
 --
 
 INSERT INTO `tbl_location` (`address`, `city`, `state`, `email`, `postal_code`, `name`) VALUES
-('saukakke', 'saukakke', 'saukakke', 'saukakke@gmail.com', '4', 'saukakke'),
-('saukakke', 'saukakke', 'saukakke', 'saukakke@gmail.com', '222', 'saukakke');
+('zaria', 'zaria', 'kaduna', 'saukakke@gmail.com', '4', 'Yasin Muhammed Tukur');
 
 -- --------------------------------------------------------
 
@@ -104,7 +103,7 @@ CREATE TABLE `tbl_profile` (
 --
 
 INSERT INTO `tbl_profile` (`name`, `gender`, `location`, `state`, `email`, `issue`) VALUES
-('saukakke', 'male', 'samaru', 'state', 'saukakke@gmail.com', 'nil');
+('Yasin Muhammed Tukur', 'male', 'samaru', 'kaduna', 'saukakke@gmail.com', 'nil');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
